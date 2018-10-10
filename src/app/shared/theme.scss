@@ -1,0 +1,28 @@
+
+@mixin fonts($fontfamily, $font-file) {
+  @font-face {
+    font-family: 'AR BERKLEY';
+    src: url($font-file + '.ttf') format('truetype');
+  }
+}
+@include fonts('AR BERKLEY', '/assets/fonts/ARBERKLEY');
+$fullwidth: 100%;
+$halfwidth: 50%;
+$quarterwidth: 25%;
+
+$header: 8rem;
+$font-size: 1.25rem;
+
+$primarycolor: #7f4140;
+$secondarycolor:  #feed98;
+$warncolor:    #d36476;
+
+$smallshadow: 5px 5px 5px black;
+$mediumshadow: 5px 10px 5px darkslategrey;
+$largeshadow: 5px 10px 15px darkslategrey;
+
+$onecolumn: 100%;
+$twocolumns: 30%;
+$threecolumns: 25%;
+$fourcolumns: 20%;
+$fivecolumns: 15%;

@@ -1,0 +1,162 @@
+[{
+  "id": 0,
+  "category": "web",
+  "skill": "Angular",
+  "years": 3,
+  "level": 4
+},
+  {
+    "id": 1,
+    "category": "web",
+    "skill": "HTML",
+    "years": 10,
+    "level": 4.5
+  },
+  {
+    "id": 2,
+    "category": "web",
+    "skill": "CSS",
+    "years": 10,
+    "level": 4
+  },
+  {
+    "id": 3,
+    "category": "web",
+    "skill": "Jquery",
+    "years": 5,
+    "level": 4
+  },
+  {
+    "id": 4,
+    "category": "web",
+    "skill": "Javascript",
+    "years": 7,
+    "level": 3
+  },
+  {
+    "id": 5,
+    "category": "web",
+    "skill": "C#",
+    "years": 5,
+    "level": 3
+  },
+  {
+    "id": 6,
+    "category": "web",
+    "skill": "ASP.NET",
+    "years": 3,
+    "level": 3
+  },
+  {
+    "id": 7,
+    "category": "web",
+    "skill": "Umbraco CMS",
+    "years": 3,
+    "level": 3.7
+  },
+  {
+    "id": 8,
+    "category": "it-dts",
+    "skill": "Windows OS",
+    "years": 15,
+    "level": 4.5
+  },
+  {
+    "id": 9,
+    "category": "it-dts",
+    "skill": "Mac OS",
+    "years": 5,
+    "level": 3.5
+  },
+  {
+    "id": 10,
+    "category": "it-dts",
+    "skill": "Excel",
+    "years": 12,
+    "level": 4.5
+  },
+  {
+    "id": 11,
+    "category": "it-dts",
+    "skill": "Word",
+    "years": 15,
+    "level": 4.5
+  },
+  {
+    "id": 12,
+    "category": "it-dts",
+    "skill": "Powerpoint",
+    "years": 8,
+    "level": 3
+  },
+  {
+    "id": 13,
+    "category": "it-dts",
+    "skill": "Outlook",
+    "years": 10,
+    "level": 4.5
+  },
+  {
+    "id": 14,
+    "category": "it-dts",
+    "skill": "Acrobat",
+    "years": 10,
+    "level": 4.5
+  },
+  {
+    "id": 15,
+    "category": "it-dts",
+    "skill": "Photoshop",
+    "years": 12,
+    "level": 3.5
+  },
+  {
+    "id": 16,
+    "category": "it-dts",
+    "skill": "Dreamweaver",
+    "years": 8,
+    "level": 3.75
+  },
+  {
+    "id": 17,
+    "category": "it-dts",
+    "skill": "Visual Studio",
+    "years": 8,
+    "level": 4.5
+  },
+  {
+    "id": 18,
+    "category": "it-dts",
+    "skill": "Visual Studio Code",
+    "years": 3,
+    "level": 3.75
+  },
+  {
+    "id": 19,
+    "category": "it-dts",
+    "skill": "XCode",
+    "years": 4,
+    "level": 3.5
+  },
+  {
+    "id": 20,
+    "category": "work",
+    "skill": "Signature Series Arts",
+    "years": 0,
+    "level": 0
+  },
+  {
+    "id": 21,
+    "category": "work",
+    "skill": "5 Star Shots Events",
+    "years": 0,
+    "level": 0
+  },
+  {
+    "id": 22,
+    "category": "work",
+    "skill": "Generali USA",
+    "years": 0,
+    "level": 0
+  }
+]

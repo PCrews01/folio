@@ -1,0 +1,77 @@
+@import '../../shared/theme.scss';
+.wrapper{
+  width: $fullwidth;
+  text-align: center;
+  & .card-wrapper{
+    display: inline-block;
+  }
+  & .card{
+      padding: $fullwidth / 100;
+      margin: $fullwidth / 100;
+      display: block;
+      height: 500px;
+      background: linear-gradient($primarycolor 0%, $secondarycolor 100%);
+      box-shadow: $smallshadow;
+      & .card-header{
+        color: white;
+        font-size: 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid $secondarycolor;
+
+      }
+      & .card-body{
+        width: $fullwidth;
+        height: 100%;
+        position: relative;
+        float: left;
+        & img{
+          position: absolute;
+          width: $fullwidth;
+          height: 85%;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+  }
+}
+form{
+  position: relative;
+  width: 60%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  & textarea{
+    min-height: 60px;
+
+  }
+  & button{
+    height: 35px;
+    text-transform: uppercase;
+    background: $primarycolor;
+    color: $secondarycolor;
+    border-radius: 20px;
+    border: none;
+    &:hover{
+      background: $secondarycolor;
+      box-shadow: $smallshadow;
+      color: $primarycolor
+    }
+  }
+}
+.form-group{
+  margin-bottom: 30px;
+  display: grid;
+  & input{
+    height: 40px;
+    font-size: 25px;
+  }
+}
+label{
+  text-align: left;
+  width:$fullwidth;
+}

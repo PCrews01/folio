@@ -1,0 +1,16 @@
+  <div class="wrapper">
+    <p class="section-header">
+      {{ title }}
+    </p>
+    <div [class]="cols + ' card-wrapper'" *ngFor="let i of skills">
+      <div class="card">
+        <div class="card-header">
+          {{ i.skill }}
+        </div>
+        <div class="card-body">
+          <img src="../../../assets/images/web/c sharp.png" *ngIf="i.skill === 'C#'" />
+          <img src="../../../assets/images/skills/{{ i.skill | lowercase }}.png" *ngIf="i.skill !== 'C#'" />
+        </div>
+      </div>
+    </div>
+  </div>

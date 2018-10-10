@@ -1,0 +1,39 @@
+@import '../../shared/theme.scss';
+.wrapper{
+  width: $fullwidth;
+  text-align: center;
+  & .card-wrapper{
+    display: inline-block;
+  }
+  & .card{
+      padding: $fullwidth / 100;
+      margin: $fullwidth / 100;
+      display: block;
+      height: 400px;
+      background: linear-gradient($primarycolor 0%, $secondarycolor 100%);
+      box-shadow: $smallshadow;
+      & .card-header{
+        color: white;
+        font-size: 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid $secondarycolor;
+
+      }
+      & .card-body{
+        width: $fullwidth;
+        height: 100%;
+        position: relative;
+        float: left;
+        & img{
+          position: absolute;
+          width: $fullwidth;
+          height: 85%;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+  }
+}

@@ -1,0 +1,34 @@
+@import './app/shared/theme.scss';
+body{
+  background: linear-gradient($primarycolor 0%, $secondarycolor 99%);
+  color: white;
+  min-height: 100%;
+  min-width: 99%;
+  margin: 0;
+  padding: 0;
+}
+.small-separator{
+  position: absolute;
+  width: 50%;
+  margin: 0 auto;
+  border-top: 1px solid $secondarycolor;
+  box-shadow: $smallshadow;
+}
+.medium-separator{
+  position: absolute;
+  width: 75%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: .51px solid $secondarycolor;
+  box-shadow: $smallshadow;
+}
+.one-col{ width: $onecolumn; }
+.two-col{ width: $twocolumns; }
+.three-col{ width: $threecolumns; }
+.four-col{ width: $fourcolumns; }
+.five-col{ width: $fivecolumns; }
+.section-header{ font-family: 'AR BERKLEY'; color: $primarycolor; font-size: $header; margin-top: 5%;}
+.card-header{ font-family: 'AR BERKLEY'}
